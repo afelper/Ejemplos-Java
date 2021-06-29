@@ -8,7 +8,8 @@ public class Ejercicio1 {
         var Fnacimiento = sc.nextLine();
 
         var digitos = suerte(Fnacimiento);
-        System.out.println(digitos);    
+        System.out.println(digitos); 
+        sc.close();   
     }
 
     
